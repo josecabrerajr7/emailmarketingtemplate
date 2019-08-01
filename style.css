@@ -1,0 +1,118 @@
+/* ------ Media Queries --------- */
+* { 
+	padding: 0; 
+	margin: 0; 
+}
+
+html, body {
+	height: 100%;
+	min-height: 100% !important;
+}
+
+.email-wrapper {
+	width: 100%;
+	min-height: 100%;
+}
+
+.email-main-content {
+	display: block;
+	background: no-repeat;
+	background-size: cover;
+	background-image: url('https://res.cloudinary.com/dyrmkipnq/image/upload/v1564518460/social-mail/header-background_bcdy4u.jpg');
+}
+
+.logo-section {
+	float: left;
+	display: block;
+}
+
+.nav-section {
+	float: left;
+	display: block;
+}
+
+.nav-header > ul {
+	display: block;
+	list-style: none;
+}
+
+.nav-header > ul > li {
+	float: left;
+}
+
+.nav-header > ul > li > a {
+	font-size: .9rem;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.email-header {
+	font-size: 1.5rem;
+	color: #ffffff;
+}
+
+.email-paragraph {
+	font-size: 1rem;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+	.email-wrapper {
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.email-main-content {
+		min-width: 100%;
+		min-height: 100% !important;
+		display: block;
+	}
+
+	.logo-section {
+		width: 25%;
+		height: 65px;
+	}
+
+	.logo {
+		width: 45px;
+		margin: 10px 5px;
+	}
+
+	.nav-section {
+		width: 75%;
+		height: 65px;
+	}
+
+	.nav-header > ul {
+		width: 100%;
+		height: auto;
+	}
+
+	.nav-header > ul > li {
+		line-height: 53px;
+		width: auto;
+		margin: 5px;
+	}
+
+	.nav-header > ul > li > a {
+		padding: 2px;
+	}
+
+	.email-header {
+		margin: 2px 15px 7.5px 15px;
+	}
+
+	.email-paragraph {
+		width: 50%;
+		margin: 7.5px 15px 10px 15px;
+	}
+	
+}
+
+@media screen and (min-width: 401px) and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	
+}
